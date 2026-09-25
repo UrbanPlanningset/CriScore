@@ -6,8 +6,6 @@ CirScore is a paper-aligned implementation of executable program induction for a
 2. training-only out-of-fold evidence selects the executable program;
 3. test labels are opened only after predictions have been frozen.
 
-The repository contains implementation code only. It does not include pretrained weights, datasets, API credentials, or reported experimental results.
-
 ## Method overview
 
 CirScore operates on a base prediction and three registered evidence sources: `i3d`, `swin`, and `pose`.
@@ -305,6 +303,4 @@ The declared model labels are:
 
 These entries are configuration labels, not bundled clients or claims of provider availability. The example model configuration intentionally leaves all external commands blank. Users are responsible for supplying an authorized connector and valid credentials.
 
-## Evidence boundary
 
-This codebase defines an executable and auditable evaluation protocol. Metric values are produced only after the user supplies the required data, features, frozen predictions, and test labels. The repository itself does not provide or imply empirical performance values.
