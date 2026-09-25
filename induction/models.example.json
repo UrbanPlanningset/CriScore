@@ -1,0 +1,41 @@
+{
+  "default_model": "DeepSeek-V4-Pro",
+  "models": [
+    {
+      "name": "DeepSeek-V4-Pro",
+      "backend": "command",
+      "command": "",
+      "api_key_env": "DEEPSEEK_API_KEY"
+    },
+    {
+      "name": "DeepSeek-V4-Flash",
+      "backend": "command",
+      "command": "",
+      "api_key_env": "DEEPSEEK_API_KEY"
+    },
+    {
+      "name": "GPT-6 Astra",
+      "backend": "command",
+      "command": "",
+      "api_key_env": "OPENAI_API_KEY"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "backend": "command",
+      "command": "",
+      "api_key_env": "ANTHROPIC_API_KEY"
+    },
+    {
+      "name": "Gemini 3.8 Flash",
+      "backend": "command",
+      "command": "",
+      "api_key_env": "GEMINI_API_KEY"
+    },
+    {
+      "name": "Qwen3.8-Max",
+      "backend": "command",
+      "command": "",
+      "api_key_env": "DASHSCOPE_API_KEY"
+    }
+  ]
+}

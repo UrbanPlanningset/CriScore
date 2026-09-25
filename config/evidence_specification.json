@@ -1,0 +1,15 @@
+{
+  "task": "action_quality_assessment",
+  "sources": [
+    "i3d",
+    "swin",
+    "pose"
+  ],
+  "source_descriptions": {
+    "i3d": "Spatiotemporal appearance and motion tokens from the registered I3D feature stream.",
+    "swin": "Video-transformer tokens from the registered Swin feature stream.",
+    "pose": "Human-pose and body-configuration tokens from the registered pose feature stream."
+  },
+  "selection_boundary": "Candidate programs are selected only with training out-of-fold evidence.",
+  "evaluation_boundary": "Test labels are unavailable during induction, compilation, selection, and prediction freezing."
+}
